@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+   }
+   
+   header {
+    background-color: #333;
+    padding: 20px;
+   }
+   .button {
+
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:20px; 
+    padding:30px;
+    min-height:60px; 
+    min-width: 180px;
+  }
+   
+   nav ul {
+    list-style-type: none;
+    padding: 0;
+   }
+   
+   nav ul li {
+    display: inline;
+    margin-right: 10px;
+   }
+   
+   nav ul li a {
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   .light-theme {
+    background-color: #fff;
+    color: #333;
+   }
+   
+   .dark-theme {
+    background-color: #333;
+    color: #fff;
+   }
+   
+   .posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+   }
+   
+   .posts li {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+   }
+   
+   .posts img {
+    width: 100%;
+    height: auto;
+   }
+   
+   .theme-switcher {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+   }
+   
+   .theme-switcher .btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+   }
+   
+   footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   }
+   * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+}
+header {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+.bg {
+	width: 110%;
+	height: 110%;
+	background: url(city.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.hacker {
+	width: 600px;
+	height: 712px;
+	background: url(hacker.png);
+	position: absolute;
+	bottom: -100px;
+	left: 37%;
+}
+.text {
+	font-size: 100px;
+	font-weight: bold;
+	color: #ffffff;
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	transform: translate(-50%);
+	text-shadow: 5px 5px 15px #000000;
+	white-space: nowrap;
+}
