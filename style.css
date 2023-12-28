@@ -105,6 +105,7 @@ header {
 	background: url(city.jpg) no-repeat;
 	background-size: cover;
 	position: relative;
+  margin-bottom: 500px;
 }
 .hacker {
 	width: 600px;
@@ -113,6 +114,7 @@ header {
 	position: absolute;
 	bottom: -100px;
 	left: 37%;
+  
 }
 .text {
 	font-size: 100px;
@@ -124,4 +126,7 @@ header {
 	transform: translate(-50%);
 	text-shadow: 5px 5px 15px #000000;
 	white-space: nowrap;
+}
+li{
+   list-style: none;
 }
